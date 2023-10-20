@@ -1,0 +1,174 @@
+body {
+	background-image:url(../images/nazarbayev_university_bg.jpg);
+	font-family:Tahoma;
+	background-size: cover;
+}
+html, body {
+	height: 100%;
+}
+
+
+
+/*login*/
+#loginform {
+		padding:16px 35px 26px 35px;
+		font-size:11px;
+}
+#loginform h1 {
+	font-size:14px;
+  background-image: url(../images/nu-logo.png);
+  width: 270px;
+  height: 50px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  color: transparent;
+	font-size: 0;
+	
+	padding: 20px 0 80px 60px!important;
+	background-position-y: 20px;
+	display: block;
+	position: relative;
+	/*! text-align: center; */
+	/*! margin-left: 40px; */
+	background-position: 50px 20px;
+}
+#loginform h1:after {
+	content: "Welcome to the internal information portal of NAZARBAYEV UNIVERSITY";
+	font-size: 16px;
+	width: 300px;
+	height: 20px;
+	text-align: center;
+	color: #000;
+	display: block;
+	text-transform: none;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	font-family: Open Sans;
+	line-height: 1.3;
+}
+#loginform b {
+	color:#fff;
+	font-size:11px;
+	color:#FFF;
+	padding-bottom:10px;
+	display:block;
+}
+#loginform img {
+	margin-left: 6px;
+}
+#loginform ul {
+	padding:5px 0
+}
+#loginform ul li {
+	padding:3px 0;
+	color:#fff;
+	font-size:11px;
+}
+#loginform ul li a:link, #loginform ul li a:visited {
+	color:#fff;
+	font-size:11px;
+	text-decoration:underline;
+}
+#loginform ul li a:hover, #loginform ul li a:active {
+	color:#fff;
+	font-size:11px;
+	text-decoration:none;
+}
+#loginform p {color:#fff;font-size:11px; padding:5px 0 5px 0; line-height:18px;}
+#loginform form label{display:block; font-size:11px; padding:5px 0px;}
+#loginform form input[name="login"]{width:270px;padding-left: 35px !important;}
+#loginform form input[name="password"]{width:270px;padding-left: 35px !important;}
+#loginform form input[type="submit"]{display:block; margin:5px 0px 5px 0px; padding:2px 3px; float:left; font-size:11px;}
+#loginform .error_message{color:red; font-weight:bold;}
+#loginform .help_message{border-top:1px solid #959aad;}
+#loginform a{color:#CA8728; font-size:10px;}
+#loginform table {line-height:30px;}
+
+
+#wrap {
+  width: 1300px !important;
+  position: relative;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+#loginform {
+		margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+		background: #fff;
+  color: inherit;
+		}
+#loginform .content form table {
+	padding-top: 30px;
+	margin-top: 30px;
+}
+#loginform .content form table + table {
+	margin: 0 !important;
+}
+#loginform input[type="text"]{padding-left: 50px;}
+#loginform .content form table tr input {
+	padding: 10px 0;
+	margin: 10px 0;
+	border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 2px;
+	background-image: url(../images/user_i.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+#loginform .content form table + table tr input{
+	background-image: url(../images/lock_i.png) !important;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+#loginform .content form table tr:nth-child(2) { display: none;}
+#loginform .content form table tr:nth-child(4) { display: none;}
+
+#loginform .content form table + table tr:nth-child(2) { display:block; }
+
+#loginform .content #loginSubmit{
+	
+background: #E0B154 url(../images/union_i.png) no-repeat 95px;
+border-radius: 2px;
+	width: 123px;
+height: 42px;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-transform: uppercase;
+color: #FFFFFF;
+	text-align: center;
+	margin: 20px auto !important;
+float: none;
+border: none;
+/*! margin: 20px !important; */
+}
+.tundra {
+  /*! background: #fff !important; */
+}
+.tundra #wrap {
+  background: transparent;
+  box-shadow: none !important;
+}
+.h-section {
+  
+  background: none !important;
+}
+.lotusWidget2 h2 {
+  background: none !important;
+  border: none !important;
+}
+.lotusWidget2 a {
+  display: none;
+}
+.lotusWidget2 .lotusWidgetBody {
+  border: none;
+  box-shadow: none;
+}
